@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #e8f5e9 ;
+  }
+
+footer {
+    flex: 1 0 auto;
+}
+
+#career{
+  color: #039be5;
+}
+
+#image{
+	width: 250px;
+}
+
+#me{
+	font-family: arial;
+}
+
+#social{
+	font-size: 30px;
+}
