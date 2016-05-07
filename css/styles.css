@@ -1,7 +1,10 @@
 body {
-    background-size: 100%;
-    background-image: url(../images/background.JPG);
-  }
+  background: url(../images/background.JPG) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 footer {
     flex: 1 0 auto;
