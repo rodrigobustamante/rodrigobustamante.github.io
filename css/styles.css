@@ -1,7 +1,6 @@
 body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+    background-size: 100%;
+    background-image: url(../images/background.JPG);
   }
 
 footer {
@@ -22,7 +21,8 @@ footer {
 
 .social{
 	margin: 0;
-  	text-align: center;
+  text-align: center;
+  color: black;
 }
 
 .social li{
@@ -32,7 +32,7 @@ footer {
 }
 
 .social li a{
-  color: #777;
+  color: #cfd8dc;
   display: block;
   font-size: 2em;
   min-width: 1.4em;
@@ -40,5 +40,9 @@ footer {
 }
 
 .social li a:hover{
-  color: #000;
+  color: #ffffff;
+}
+
+#card{
+  opacity: 0.5;
 }
