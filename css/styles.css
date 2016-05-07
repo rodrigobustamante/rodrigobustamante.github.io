@@ -1,4 +1,5 @@
 body {
+  width:100%;
   background: url(../images/background.JPG) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -35,7 +36,7 @@ footer {
 }
 
 .social li a{
-  color: #cfd8dc;
+  color: #000000;
   display: block;
   font-size: 2em;
   min-width: 1.4em;
@@ -43,7 +44,7 @@ footer {
 }
 
 .social li a:hover{
-  color: #ffffff;
+  color: #03a9f4
 }
 
 #card{
