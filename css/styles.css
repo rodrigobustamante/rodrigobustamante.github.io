@@ -1,8 +1,12 @@
 body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
+  width:100%;
+  background: url(../images/background.JPG) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 footer {
     flex: 1 0 auto;
 }
@@ -14,8 +18,37 @@ footer {
 #image{
 	width: 250px;
 }
+
 #me{
 	font-family: arial;
+}
+
+.social{
+	margin: 0;
+  text-align: center;
+  color: black;
+}
+
+.social li{
+	display: inline-block;
+  	margin: 0 1em;
+  	padding: 1.5em 0;
+}
+
+.social li a{
+  color: #000000;
+  display: block;
+  font-size: 2em;
+  min-width: 1.4em;
+  text-align: center;
+}
+
+.social li a:hover{
+  color: #03a9f4
+}
+
+#card{
+  opacity: 0.5;
 }
 #social{
 	font-size: 30px;
