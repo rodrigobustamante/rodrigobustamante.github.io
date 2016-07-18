@@ -3,7 +3,6 @@ body {
     min-height: 100vh;
     flex-direction: column;
   }
-
 footer {
     flex: 1 0 auto;
 }
@@ -15,11 +14,9 @@ footer {
 #image{
 	width: 250px;
 }
-
 #me{
 	font-family: arial;
 }
-
 #social{
 	font-size: 30px;
 }
