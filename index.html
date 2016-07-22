@@ -1,51 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" type="text/css" href="css/styles.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
-		<title>Rodrigo Bustamante</title>
-	</head>
-	<body class="container">
-		<header>
-		<div id="card" class="card-panel hoverable blue-grey lighten-5">
-			<h3 id="name" class="center-align">Rodrigo Bustamante</h3>
-			<h5 id="career" class="flow-text center-align ">Software Engineering Student</h5>
-		</div>
-		</header>
-		<div id="info" class="center-align">
-			<img id="image" alt="me" class="circle responsive-img" src="images/me.jpg">
-			<p class="black-text" id="me">I am 20 years old, I'm from Santiago/Chile, study Software Engineering in Duoc UC. I like travel, and love my career <i class="fa fa-heart" aria-hidden="true"></i></p>
-			<div>
-				<ul class="social">
-					<li><a href="https://www.facebook.com/profile.php?id=1019878056"><span class="fa fa-facebook"></span></a></li>
-					<li><a href="https://twitter.com/uhNxZ"><span class="fa fa-twitter"></span></a></li>
-					<li><a href="https://play.spotify.com/user/12136386622"><span class="fa fa-spotify"></span></a></li>
-					<li><a href="http://steamcommunity.com/id/uhNxZ/"><span class="fa fa-steam"></span></a></li>
-					<li><a href="https://github.com/rodrigobustamante"><span class="fa fa-github"></span></a></li>
-					<li><a href="https://gitlab.com/u/RodrigoBustamante"><span class="fa fa-gitlab"></span></a></li>
-				</ul>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+	<title>
+		Rodrigo Bustamante - Software Engineering Student
+	</title>
+	<!-- Styles -->
+	<link rel="stylesheet" href="css/styles.css">
+	 <!-- Compiled and minified CSS -->
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  	<!-- Google icons -->
+  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  	<!-- Google font -->
+  	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header>
+		<nav class="blue darken-4">
+		    <div class="nav-wrapper">
+		      <div class="container">
+		      	<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			    <ul id="nav-mobile" class=" hide-on-med-and-down">
+			        <li><a href="#about">Quién soy</a></li>
+			        <li><a href="#studies">Educación</a></li>
+			        <li><a href="#">Mis habilidades</a></li>
+			        <li><a href="#">Contacto</a></li>
+			    </ul>
+			    <ul class="side-nav" id="mobile-demo">
+		            <li><a href="#about5">Quién soy</a></li>
+			        <li><a href="#">Estudios</a></li>
+			        <li><a href="#">Mis habilidades</a></li>
+			        <li><a href="#">Contacto</a></li>
+	          	</ul>
+		      </div>
+		    </div>
+		  </nav>
+	</header>
+	<div class="parallax-container">
+		<div class="container">
+		<br>
+		<br>
+		<br>
+			<div class="card-panel blue darken-4">
+				<h1 class="white-text center">Rodrigo Bustamante</h1>
+				<h4 class="white-text center">Estudiante de Ingeniería en Informática</h4>
 			</div>
-			<footer>
-				<p>I'm hosted with GitHub Pages.</p>
-			</footer>
 		</div>
-		<script src="js/materialize.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-		<script src="js/queryloader2.min.js"></script>
-		<script type="text/javascript">
-		    window.addEventListener('DOMContentLoaded', function() {
-		        new QueryLoader2(document.querySelector("body"), {
-		            barColor: "#efefef",
-		            backgroundColor: "#111",
-		            percentage: false,
-		            barHeight: 1,
-		            minimumTime: 3000,
-		            fadeOutTime: 1000
-		        });
-		    });
-		</script>
-	</body>
+      	<div class="parallax">
+      		<img src="images/background.jpg">
+
+      	</div>
+    </div>
+    <div id="about" class="section scrollspy container">
+    	<div class="card-panel blue darken-4">
+    		<h3 class="white-text">¿Quién soy?</h3> 
+    	</div>
+    	Mi nombre es Rodrigo Bustamante, en la actualidad, tengo 20 años de edad, vivo en Santiago de Chile.
+    	<p>Me gusta escuchar música, ver series, y aprender cosas nuevas.</p>   
+    	
+    </div>
+    <div id="studies" class="section scrollspy container">
+    	<h3>Mi educación:</h3>
+    	<div id="cards">
+        <aside class="row">
+          <ul class="overhide">
+            <li class="col s4">
+              <div class="card">
+              <div class="card-image">
+                <img src="images/basica.png" alt="" class="circle responsive-img">
+              </div>
+              <div class="card-content">
+                <span class="card-title">Enseñanza básica:</span>
+                <p>- Colegio Leonardo Da Vinci</p>
+                <p>- Colegio Nuestra Señora del Rosario</p>
+              </div>
+            </div>
+            </li>
+            <li class="col s4">
+              <div class="card">
+              <div class="card-image">
+                <img src="images/media.png" alt="" class="circle responsive-img">
+              </div>
+              <div class="card-content">
+                <span class="card-title">Enseñanza media:</span>
+                <p>- Colegio Nuestra Señora del Rosario</p>
+                <br>
+              </div>
+            </div>
+            </li>
+            <li class="col s4">
+              <div class="card">
+              <div class="card-image">
+                <img src="images/superior.png" alt="" class="circle responsive-img">
+              </div>
+              <div class="card-content">
+                <span class="card-title">Educación superior:</span>
+                <p>- Instituto técnico profesional Duoc UC</p>
+              	<br>
+              </div>
+            </div>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+    </div>
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+  	<script>
+      $(document).ready(function(){
+      $(".button-collapse").sideNav();
+      $('.parallax').parallax();
+      $('.scrollspy').scrollSpy();
+    });
+    </script>
+    <script src="js/queryloader2.min.js"></script>
+    <script type="text/javascript">
+        window.addEventListener('DOMContentLoaded', function() {
+            new QueryLoader2(document.querySelector("body"), {
+                barColor: "#efefef",
+                backgroundColor: "#111",
+                percentage: false,
+                barHeight: 1,
+                minimumTime: 3000,
+                fadeOutTime: 1000
+            });
+        });
+    </script>
+</body>
 </html>
