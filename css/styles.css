@@ -1,3 +1,36 @@
-#name{
-	font-size: 33px;
+#responsive {
+		display: none;
+    }
+@media only screen and (max-width: 500px) {
+    #name {
+        font-size: 30px;
+    }
+
+    #subtitle {
+        font-size: 20px;
+    }
+
+    #basica {
+		width: 300px;
+    }
+
+    #media {
+    	width: 300px;
+    }
+
+    #superior {
+    	width: 300px;
+    }
+
+    #responsive {
+		display: block;
+    }
+
+    #imagen{
+    	width: 800px;
+    }
+
+    #pc {
+		display: none;
+    }
 }

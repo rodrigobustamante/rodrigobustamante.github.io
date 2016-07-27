@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 	<title>
@@ -43,68 +60,110 @@
 		<br>
 		<br>
 			<div class="card-panel blue darken-4">
-				<h1 class="white-text center">Rodrigo Bustamante</h1>
-				<h4 class="white-text center">Estudiante de Ingeniería en Informática</h4>
+				<h1 id="name" class="white-text center">Rodrigo Bustamante</h1>
+				<h4 id="subtitle" class="white-text center">Estudiante de Ingeniería en Informática</h4>
 			</div>
 		</div>
       	<div class="parallax">
-      		<img src="images/background.png" alt="parallax">
+      		<img id="imagen" src="images/background.png" alt="parallax">
       	</div>
   </div>
       <div id="about" class="section scrollspy container">
       	<div class="card-panel blue darken-4">
-      		<h3 class="white-text">¿Quién soy?</h3> 
+      		<h3 class="white-text center">¿Quién soy?</h3> 
       	</div>
       	Mi nombre es Rodrigo Bustamante, en la actualidad, tengo 20 años de edad, vivo en Santiago de Chile.
       	<p>Me gusta escuchar música, ver series, y aprender cosas nuevas.</p>   
       </div>
       <div id="studies" class="section scrollspy container">
-      	<h3>Mi educación:</h3>
-      	<div id="cards">
-          <aside class="row">
-            <ul class="overhide">
-              <li class="col s4">
-                <div class="card">
-                <div class="card-image">
-                  <img src="images/basica.png" alt="" class="circle responsive-img">
+      <div class="card-panel blue darken-4">
+      	<h3 class="white-text center">Mi educación:</h3>
+      </div>
+        <div id="pc">
+        	<div id="cards">
+            <aside class="row">
+              <ul class="overhide">
+                <li class="col s4">
+                  <div id="basica" class="card">
+                  <div class="card-image">
+                    <img src="images/basica.png" alt="" class="circle responsive-img">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title">Enseñanza básica:</span>
+                    <p>- Colegio Leonardo Da Vinci</p>
+                    <p>- Colegio Nuestra Señora del Rosario</p>
+                  </div>
                 </div>
-                <div class="card-content">
-                  <span class="card-title">Enseñanza básica:</span>
-                  <p>- Colegio Leonardo Da Vinci</p>
-                  <p>- Colegio Nuestra Señora del Rosario</p>
+                </li>
+                <li class="col s4">
+                  <div id="media" class="card">
+                  <div class="card-image">
+                    <img src="images/media.png" alt="" class="circle responsive-img">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title">Enseñanza media:</span>
+                    <p>- Colegio Nuestra Señora del Rosario</p>
+                    <br>
+                  </div>
                 </div>
-              </div>
-              </li>
-              <li class="col s4">
-                <div class="card">
-                <div class="card-image">
-                  <img src="images/media.png" alt="" class="circle responsive-img">
+                </li>
+                <li class="col s4">
+                  <div id="superior" class="card">
+                  <div class="card-image">
+                    <img src="images/superior.png" alt="" class="circle responsive-img">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title">Educación superior:</span>
+                    <p>- Instituto técnico profesional Duoc UC</p>
+                  	<br>
+                  </div>
                 </div>
-                <div class="card-content">
-                  <span class="card-title">Enseñanza media:</span>
-                  <p>- Colegio Nuestra Señora del Rosario</p>
-                  <br>
-                </div>
-              </div>
-              </li>
-              <li class="col s4">
-                <div class="card">
-                <div class="card-image">
-                  <img src="images/superior.png" alt="" class="circle responsive-img">
-                </div>
-                <div class="card-content">
-                  <span class="card-title">Educación superior:</span>
-                  <p>- Instituto técnico profesional Duoc UC</p>
-                	<br>
-                </div>
-              </div>
-              </li>
-            </ul>
-          </aside>
+                </li>
+              </ul>
+            </aside>
+          </div>
+          </div>
+
+          <div id="responsive">
+            <div id="cards" class="center">
+                    <div id="basica" class="card">
+                    <div class="card-image">
+                      <img src="images/basica.png" alt="" class="circle responsive-img">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title">Enseñanza básica:</span>
+                      <p>- Colegio Leonardo Da Vinci</p>
+                      <p>- Colegio Nuestra Señora del Rosario</p>
+                    </div>
+                  </div>
+                    <div id="media" class="card">
+                    <div class="card-image">
+                      <img src="images/media.png" alt="" class="circle responsive-img">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title">Enseñanza media:</span>
+                      <p>- Colegio Nuestra Señora del Rosario</p>
+                      <br>
+                    </div>
+                  </div>
+                    <div id="superior" class="card">
+                    <div class="card-image">
+                      <img src="images/superior.png" alt="" class="circle responsive-img">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title">Educación superior:</span>
+                      <p>- Instituto técnico profesional Duoc UC</p>
+                      <br>
+                    </div>
+                  </div>
+            </div>
+          </div>
         </div>
-        </div>
+
         <div id="skills" class="section scrollspy container">
-          <h3>Mis habilidades:</h3>
+        <div class="card-panel blue darken-4">
+          <h3 class="white-text center">Mis habilidades:</h3>
+        </div>
           <ul class="collection">
             <li class="collection-item">
               HTML
@@ -145,8 +204,9 @@
           </ul>
       </div>
       <div id="contact" class="section scrollspy container">
-        <h3>Contacto:</h3>
-        
+      <div class="card-panel blue darken-4">
+        <h3 class="white-text center">Contacto:</h3>
+      </div>
       </div>
       <footer>
         <div class="footer-copyright">
