@@ -1,6 +1,72 @@
 #responsive {
 		display: none;
-    }
+}
+
+#social-icons{
+	text-align: center;
+}
+
+#formal{
+	height: 195px;
+    width: 195px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+
+#facebook{
+	color: grey;
+}
+
+#twitter{
+	color: grey;
+}
+
+#youtube{
+	color: grey;
+}
+
+#instagram{
+	color: grey;
+}
+
+#github{
+	color: grey;
+}
+
+#gitlab{
+	color:  grey;
+}
+
+#facebook:hover{
+	color: #3b5998;
+}
+
+#twitter:hover{
+	color: #00aced;
+}
+
+#youtube:hover{
+	color: #cc181e;
+}
+
+#instagram:hover{
+	color: #e95950;
+}
+
+#github:hover{
+	color: #000000;
+}
+
+#gitlab:hover{
+	color: #fc6d26;
+}
+
+#click {
+	font-size: 15px;
+}
+
 @media only screen and (max-width: 500px) {
     #name {
         font-size: 30px;
