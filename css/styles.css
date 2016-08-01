@@ -52,7 +52,23 @@
 }
 
 #instagram:hover{
-	color: #e95950;
+	-webkit-animation-name: instagram;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 5s; 
+}
+
+@-webkit-keyframes instagram {  
+  0% { color: #405de6; }
+  10% { color: #5851db; }
+  20% { color: #833ab4; }
+  30% { color: #c13584; }
+  40% { color: #e1306c; }
+  50% { color: #fd1d1d; }
+  60% { color: #f56040; }
+  70% { color: #f77737; }
+  80% { color: #fcaf45; }
+  90% { color: #ffdc80; }
+  100% { color: #405de6; }
 }
 
 #github:hover{
