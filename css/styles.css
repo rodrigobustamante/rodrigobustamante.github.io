@@ -10,6 +10,10 @@
 	text-align: center;
 }
 
+#formulario{
+	border-style: solid;
+}
+
 #formal{
 	height: 195px;
     width: 195px;
