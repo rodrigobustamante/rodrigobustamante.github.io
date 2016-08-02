@@ -91,7 +91,7 @@
 	font-size: 15px;
 }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 768px) and (min-width: 320px) {
     #name {
         font-size: 30px;
     }
@@ -101,15 +101,15 @@
     }
 
     #basica {
-		width: 300px;
+		width: 280px;
     }
 
     #media {
-    	width: 300px;
+    	width: 280px;
     }
 
     #superior {
-    	width: 300px;
+    	width: 280px;
     }
 
     #responsive {
