@@ -91,7 +91,7 @@
 	font-size: 15px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 740px) {
     #name {
         font-size: 30px;
     }
@@ -117,7 +117,7 @@
     }
 
     #contact-responsive{
-    	display: block;
+      display: block;
     }
 
     #imagen{
