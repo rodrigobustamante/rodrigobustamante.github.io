@@ -1,9 +1,17 @@
 #responsive {
-		display: none;
+	display: none;
+}
+
+#contact-responsive{
+	display: none;
+}
+
+#social{
+	text-align: center;
 }
 
 #social-icons{
-	text-align: center;
+	
 }
 
 #formal{
@@ -54,7 +62,7 @@
 #instagram:hover{
 	-webkit-animation-name: instagram;  
     -webkit-animation-iteration-count: infinite;  
-    -webkit-animation-duration: 5s; 
+    -webkit-animation-duration: 3s; 
 }
 
 @-webkit-keyframes instagram {  
@@ -108,11 +116,19 @@
 		display: block;
     }
 
+    #contact-responsive{
+    	display: block;
+    }
+
     #imagen{
     	width: 800px;
     }
 
     #pc {
 		display: none;
+    }
+
+    #contact-pc{
+    	display: none;
     }
 }
